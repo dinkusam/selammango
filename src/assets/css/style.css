@@ -555,7 +555,7 @@ a.reqe-button {
 
 /* banner */
 .main-banner {
-    background: url(../images/bg1.png) no-repeat center;
+    background: url(/images/bg1.png) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
