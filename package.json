@@ -22,9 +22,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-render":"set \"CI=false\" && yarn run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "set \"CI=false\" && yarn run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
