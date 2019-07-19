@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/selammango/static/css/main.867915d8.chunk.css",
+    "main.js": "/selammango/static/js/main.6b3de0a8.chunk.js",
+    "main.js.map": "/selammango/static/js/main.6b3de0a8.chunk.js.map",
+    "runtime~main.js": "/selammango/static/js/runtime~main.06d7bee1.js",
+    "runtime~main.js.map": "/selammango/static/js/runtime~main.06d7bee1.js.map",
+    "static/js/2.16c0fb5a.chunk.js": "/selammango/static/js/2.16c0fb5a.chunk.js",
+    "static/js/2.16c0fb5a.chunk.js.map": "/selammango/static/js/2.16c0fb5a.chunk.js.map",
+    "index.html": "/selammango/index.html",
+    "precache-manifest.9b560940f0306e45a41b87f755b8cd5f.js": "/selammango/precache-manifest.9b560940f0306e45a41b87f755b8cd5f.js",
+    "service-worker.js": "/selammango/service-worker.js",
+    "static/css/main.867915d8.chunk.css.map": "/selammango/static/css/main.867915d8.chunk.css.map",
+    "static/media/1.jpg": "/selammango/static/media/1.ef44fbac.jpg",
+    "static/media/2.jpg": "/selammango/static/media/2.a80822f2.jpg",
+    "static/media/3.jpg": "/selammango/static/media/3.124ad8ad.jpg",
+    "static/media/4.jpg": "/selammango/static/media/4.2dc47d69.jpg",
+    "static/media/about.jpg": "/selammango/static/media/about.e87a6b73.jpg",
+    "static/media/index.css": "/selammango/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/d1.jpg": "/selammango/static/media/d1.f243c120.jpg",
+    "static/media/d2.jpg": "/selammango/static/media/d2.ca399071.jpg",
+    "static/media/d3.jpg": "/selammango/static/media/d3.2d395ff3.jpg",
+    "static/media/d4.jpg": "/selammango/static/media/d4.273432c3.jpg",
+    "static/media/d5.jpg": "/selammango/static/media/d5.f758050a.jpg",
+    "static/media/d6.jpg": "/selammango/static/media/d6.51edeffd.jpg"
+  }
+}
