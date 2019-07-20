@@ -2,7 +2,6 @@
   "name": "react-typescript-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.selammango.com",
   "dependencies": {
     "@types/jest": "24.0.15",
     "@types/node": "12.6.3",
@@ -14,6 +13,7 @@
     "global": "^4.4.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-ga": "^2.6.0",
     "react-helmet": "^5.2.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
@@ -30,7 +30,7 @@
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
-    "deploy-surge": "yarn build && rename-files build \"index.html\" \"200.html\" && surge build https://selammango.surge.sh"
+    "deploy-surge": "yarn build && rename-files build \"index.html\" \"200.html\" && surge build https://selammango.surge.sh/"
   },
   "eslintConfig": {
     "extends": "react-app"

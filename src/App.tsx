@@ -1,12 +1,24 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Router } from 'react-router-dom';
 import Routes from './Routes';
+import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
 
+const history = createBrowserHistory();
 
-const App = () => (
-  <BrowserRouter>
-    <Routes />
-  </BrowserRouter>
-)
+// Initialize google analytics page view tracking
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
+
+const App = () => {
+  ReactGA.initialize('UA-144177360-1');
+  return(
+  <Router history={history}>
+    <Routes/>
+  </Router>
+  )
+}
 
 export default App;

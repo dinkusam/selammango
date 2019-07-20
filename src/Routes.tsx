@@ -5,7 +5,7 @@ import About from './components/About';
 
 const Routes = () => (
   <Switch>
-    <Route exact path="/" component={Home} />
+    <Route exact path="/" component={Home}  />
     <Route path="/about" component={About} />
   </Switch>
 )
