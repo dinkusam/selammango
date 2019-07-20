@@ -686,6 +686,7 @@ a.reqe-button {
 .box20 {
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .box20:after,

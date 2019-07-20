@@ -19,8 +19,8 @@ export default ()=>{
                                 <ul className="menu">
                                     <li className="active"><a href="/">Home</a></li>
                                     <li className="mx-lg-4 mx-md-3 my-md-0 my-2"><a href="/about">About Us</a></li>
-                                    <li><a href="https://www.salemmango.com" target="_blank">Buy Online</a></li>
-                                    <li className="mx-lg-4 mx-md-3 my-md-0 my-2"><a href="https://www.salemmango.com/contact-salemmango" target="_blank">Contact Us</a></li>
+                                    <li><a href="https://www.salemmango.com">Buy Online</a></li>
+                                    <li className="mx-lg-4 mx-md-3 my-md-0 my-2"><a href="https://www.salemmango.com/contact-salemmango">Contact Us</a></li>
                                 </ul>
                             </nav>
                         </div>

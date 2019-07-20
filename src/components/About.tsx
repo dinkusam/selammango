@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import Header from './Header';
 import Footer from './Footer';
 import about from '../assets/images/about.jpg';
+import Middlebanner from './Middlebanner';
 
 export default () => {
     return (
@@ -30,38 +31,24 @@ export default () => {
                 <div className="container pt-xl-5 pt-lg-3">
                     <h3 className="title-w3 mb-5 font-weight-bold">About Us <span>Something about us</span></h3>
                     <div className="row">
-                        <div className="col-lg-6 w3lsits_works-grid mt-xl-4">
-                            <div className="wthree-bottom">
+                        <div className="col-lg-7 w3lsits_works-grid mt-xl-4">
+                            <div>
                                 <h6 className="subheading-w3ls text-uppercase text-dark mb-4">DEAL OF THE <span className="font-weight-bold">DAY</span>
                                     organic good <span className="font-weight-bold">foods 50%</span> off</h6>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, eaque ipsa
-							quae ab illo inventore veritatis et quasi architecto.</p>
-                                <a href="/about" className="btn button-style mt-sm-5 mt-4">Read More</a>
+                                <p>Selam Mango prepare, pack & sell our own produce, carefully handled by farmers itself. We follow all the traditional practices that our grand parents used to follow.
+                                There is no machineries involved in any of the product preparation and packing. It is all by our farmers and following traditional practices which we used to follow for more than thousands of years 
+                                </p>
+                                <a href="https://www.salemmango.com/about-salemmango" className="btn button-style mt-sm-5 mt-4">Read More</a>
                             </div>
                         </div>
-                        <div className="col-lg-6 w3lsits_works-grid1 mt-lg-0 mt-sm-5 mt-4">
+                        <div className="col-lg-5 w3lsits_works-grid1 mt-lg-0 mt-sm-5 mt-4">
                             <img src={about} alt="" className="img-fluid" />
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="what-w3ls">
-                <div className="container-fluid py-xl-5 py-lg-3">
-                    <div className="offset-xl-7 offset-lg-6 offset-md-4 offset-sm-2">
-                        <div className="grids-whtas pr-xl-5">
-                            <h3 className="tittle text-wh mb-5 font-weight-bold">763+ fruits, vegetables & lot more</h3>
-                            <p className="lead text-li">Fresh From Our Farm ut leo cursus rhoncus. Nullam dui mi, vulputate ac metus at,
-						semper varius orci. Nulla accumsan ac elit in congue.</p>
-                            <hr className="my-4" />
-                            <p className="text-li">Rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut consequat
-                                sapien ut leo cursus
-						rhoncus.Nullam dui mi, vulputate ac metus.</p>
-                            <a href="/about" className="btn button-style mt-sm-5 mt-4">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Middlebanner/>
             <Footer></Footer>
         </>
     )
