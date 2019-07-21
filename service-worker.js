@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/selammango/precache-manifest.16099825472dbdea9fc6a61532224988.js"
+  "/selammango/precache-manifest.5bcc1d5ca366cb2a49738b35c12286ea.js"
 );
 
 self.addEventListener('message', (event) => {
