@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0c6fc671d4fd29a3822a52389e0638f",
+    "revision": "0b3f1335407d57d4ab9fb60e16cd0e11",
     "url": "/selammango/index.html"
   },
   {
-    "revision": "be37a60039d5698245a0",
+    "revision": "03ff1b378994b67d5960",
     "url": "/selammango/static/css/main.cf739919.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/selammango/static/js/2.393f898d.chunk.js"
   },
   {
-    "revision": "be37a60039d5698245a0",
-    "url": "/selammango/static/js/main.b4c2fec4.chunk.js"
+    "revision": "03ff1b378994b67d5960",
+    "url": "/selammango/static/js/main.05b28b71.chunk.js"
   },
   {
     "revision": "fc19f9946b71990b4c27",
