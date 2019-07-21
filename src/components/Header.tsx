@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/css/index.css';
 
 export default ()=>{
@@ -17,8 +18,8 @@ export default ()=>{
                                 <label htmlFor="drop" className="toggle toogle-2">Menu</label>
                                 <input type="checkbox" id="drop" />
                                 <ul className="menu">
-                                    <li className="active"><a href="/">Home</a></li>
-                                    <li className="mx-lg-4 mx-md-3 my-md-0 my-2"><a href="/about">About Us</a></li>
+                                    <li className="active"><Link to="/">Home</Link></li>
+                                    <li className="mx-lg-4 mx-md-3 my-md-0 my-2"><Link to="/about">About Us</Link></li>
                                     <li><a href="https://www.salemmango.com">Buy Online</a></li>
                                     <li className="mx-lg-4 mx-md-3 my-md-0 my-2"><a href="https://www.salemmango.com/contact-salemmango">Contact Us</a></li>
                                 </ul>

@@ -17,8 +17,10 @@ import scrool3 from '../assets/images/3.jpg';
 import scrool4 from '../assets/images/4.jpg';
 import selammango1 from '../assets/images/selam-mango.jpg';
 import Middlebanner from './Middlebanner';
+import ReactGA from 'react-ga';
 
 export default () => {
+    ReactGA.pageview('/');
     return (
         <>
             <Helmet>

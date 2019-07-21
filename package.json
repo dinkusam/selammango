@@ -1,6 +1,7 @@
 {
-  "name": "react-typescript-template",
+  "name": "selam-mango",
   "version": "0.1.0",
+  "homepage": "https://www.selammango.com",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.15",

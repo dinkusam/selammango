@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Router } from 'react-router-dom';
 import Routes from './Routes';
 import ReactGA from 'react-ga';
-import { createBrowserHistory } from 'history';
+/*import { createBrowserHistory } from 'history';
 
 const history = createBrowserHistory();
 
@@ -10,14 +10,15 @@ const history = createBrowserHistory();
 history.listen(location => {
   ReactGA.set({ page: location.pathname }); // Update the user's current page
   ReactGA.pageview(location.pathname); // Record a pageview for the given page
-});
+});*/
 
 const App = () => {
   ReactGA.initialize('UA-144177360-1');
+  console.log(process.env.PUBLIC_URL);
   return(
-  <Router history={history}>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes/>
-  </Router>
+  </BrowserRouter>
   )
 }
 

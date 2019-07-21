@@ -4,8 +4,10 @@ import Header from './Header';
 import Footer from './Footer';
 import about from '../assets/images/about.jpg';
 import Middlebanner from './Middlebanner';
+import ReactGA from 'react-ga';
 
 export default () => {
+    ReactGA.pageview('/about');
     return (
         <>
             <Helmet>

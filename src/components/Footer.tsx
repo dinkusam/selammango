@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default ()=>{
     return (
@@ -30,10 +31,10 @@ export default ()=>{
                     <div className="col-lg-5 col-md-7 w3l-footer mt-lg-3 text-md-left text-center">
                         <ul className="list-unstyled footer-nav-wthree">
                             <li className="mr-4">
-                                <a href="/" className="active">Home</a>
+                            <Link to="/">Home</Link>
                             </li>
                             <li className="mr-4">
-                                <a className="" href="/about">About Us</a>
+                            <Link to="/about">About Us</Link>
                             </li>                           
                         </ul>
                     </div>
