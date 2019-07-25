@@ -6,16 +6,9 @@ import { Helmet } from 'react-helmet';
 import d1 from '../assets/images/d1.jpg';
 import d2 from '../assets/images/d2.jpg';
 import d3 from '../assets/images/d3.jpg';
-import d4 from '../assets/images/d4.jpg';
-import d5 from '../assets/images/d5.jpg';
-import d6 from '../assets/images/d6.jpg';
-import te1 from '../assets/images/te1.jpg';
-import te2 from '../assets/images/te2.jpg';
 import scrool1 from '../assets/images/1.jpg';
 import scrool2 from '../assets/images/2.jpg';
 import scrool3 from '../assets/images/3.jpg';
-import scrool4 from '../assets/images/4.jpg';
-import selammango1 from '../assets/images/selam-mango.jpg';
 import Middlebanner from './Middlebanner';
 import ReactGA from 'react-ga';
 
@@ -57,17 +50,13 @@ export default () => {
                                         </li>
                                         <li>
                                             <img src={scrool3} alt="" className="img-fluid" />
-                                        </li>
-                                        <li>
-                                            <img src={scrool4} alt="" className="img-fluid" />
-                                        </li>
+                                        </li>                                       
                                     </ul>
                                     <div className="navigation">
                                         <div>
                                             <label htmlFor="slides_1"></label>
                                             <label htmlFor="slides_2"></label>
                                             <label htmlFor="slides_3"></label>
-                                            <label htmlFor="slides_4"></label>
                                         </div>
                                     </div>
                                 </div>
@@ -104,7 +93,7 @@ export default () => {
                         </div>
                         <div className="col-lg-4 col-sm-6 my-sm-0 my-4">
                             <div className="box20 active">
-                                <img src={d6} alt="" className="img-fluid" />
+                                <img src={d2} alt="" className="img-fluid" />
                                 <div className="box-content active">
                                     <h3 className="title">Organic Jaggery</h3>
                                     <span className="post">Country Sugar, Palm Jaggery</span>
@@ -113,7 +102,7 @@ export default () => {
                         </div>
                         <div className="col-lg-4 col-sm-6 mt-lg-0 mt-sm-4 mx-auto">
                             <div className="box20">
-                                <img src={d5} alt="" className="img-fluid" />
+                                <img src={d3} alt="" className="img-fluid" />
                                 <div className="box-content">
                                     <h3 className="title">Dairy Honey</h3>
                                     <span className="post">Organic Desi Ghee, Farm Honey</span>
